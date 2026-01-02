@@ -1,0 +1,50 @@
+### Build directories (CMake)
+cmake-build-*/
+build/
+out/
+
+### CLion / JetBrains IDE
+.idea/
+*.iml
+
+### Compiled binaries
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+### Object files
+*.o
+*.obj
+*.a
+*.lib
+
+### CMake generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+### Debug / Release artifacts
+Debug/
+Release/
+
+### OS-specific files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### macOS
+.DS_Store
+
+### Linux
+*~
+
+### Logs / temp
+*.log
+*.tmp
+*.swp
